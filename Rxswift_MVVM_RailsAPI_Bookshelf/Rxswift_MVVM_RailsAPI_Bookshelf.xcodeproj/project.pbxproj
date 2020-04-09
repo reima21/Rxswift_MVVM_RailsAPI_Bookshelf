@@ -22,6 +22,9 @@
 		5FEED03B243F7E74005E759A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED03A243F7E74005E759A /* LoginViewController.swift */; };
 		5FEED03D243F7EA4005E759A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED03C243F7EA4005E759A /* LoginViewModel.swift */; };
 		5FEED03F243F7EB3005E759A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED03E243F7EB3005E759A /* LoginModel.swift */; };
+		5FEED042243F7F3E005E759A /* NSObjectProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED041243F7F3E005E759A /* NSObjectProtocolExtension.swift */; };
+		5FEED044243F7F69005E759A /* UIColorHexExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED043243F7F69005E759A /* UIColorHexExtension.swift */; };
+		5FEED046243F7F94005E759A /* ButtonExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED045243F7F94005E759A /* ButtonExtention.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +56,9 @@
 		5FEED03A243F7E74005E759A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5FEED03C243F7EA4005E759A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		5FEED03E243F7EB3005E759A /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		5FEED041243F7F3E005E759A /* NSObjectProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtension.swift; sourceTree = "<group>"; };
+		5FEED043243F7F69005E759A /* UIColorHexExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHexExtension.swift; sourceTree = "<group>"; };
+		5FEED045243F7F94005E759A /* ButtonExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtention.swift; sourceTree = "<group>"; };
 		63D107AA3D8EA6CAA05ED274 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5884E45A473625CDC4C433 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rxswift_MVVM_RailsAPI_Bookshelf/Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig"; sourceTree = "<group>"; };
 		E2CE0F7FD100C3A4448F3981 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rxswift_MVVM_RailsAPI_Bookshelf/Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig"; sourceTree = "<group>"; };
@@ -138,6 +144,9 @@
 		5FEED040243F7ECC005E759A /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				5FEED041243F7F3E005E759A /* NSObjectProtocolExtension.swift */,
+				5FEED043243F7F69005E759A /* UIColorHexExtension.swift */,
+				5FEED045243F7F94005E759A /* ButtonExtention.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -290,8 +299,11 @@
 			files = (
 				5FEED03F243F7EB3005E759A /* LoginModel.swift in Sources */,
 				5FEED03D243F7EA4005E759A /* LoginViewModel.swift in Sources */,
+				5FEED046243F7F94005E759A /* ButtonExtention.swift in Sources */,
 				5FEED03B243F7E74005E759A /* LoginViewController.swift in Sources */,
+				5FEED042243F7F3E005E759A /* NSObjectProtocolExtension.swift in Sources */,
 				5FC48962243F2DF200B07422 /* AppDelegate.swift in Sources */,
+				5FEED044243F7F69005E759A /* UIColorHexExtension.swift in Sources */,
 				5FC48964243F2DF200B07422 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
