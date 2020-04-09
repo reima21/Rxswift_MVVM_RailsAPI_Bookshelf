@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13DFBCED02C0291594D607F7 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D107AA3D8EA6CAA05ED274 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework */; };
 		5FC48962243F2DF200B07422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC48961243F2DF200B07422 /* AppDelegate.swift */; };
 		5FC48964243F2DF200B07422 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC48963243F2DF200B07422 /* SceneDelegate.swift */; };
 		5FC48966243F2DF200B07422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC48965243F2DF200B07422 /* ViewController.swift */; };
@@ -24,6 +25,9 @@
 		5FC4896A243F2DF400B07422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FC4896D243F2DF400B07422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FC4896F243F2DF400B07422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D107AA3D8EA6CAA05ED274 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5884E45A473625CDC4C433 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rxswift_MVVM_RailsAPI_Bookshelf/Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig"; sourceTree = "<group>"; };
+		E2CE0F7FD100C3A4448F3981 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rxswift_MVVM_RailsAPI_Bookshelf/Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13DFBCED02C0291594D607F7 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				5FC48960243F2DF200B07422 /* Rxswift_MVVM_RailsAPI_Bookshelf */,
 				5FC4895F243F2DF200B07422 /* Products */,
+				FC86B06BEB767533438D8BC4 /* Pods */,
+				8409C94764814547E903874B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = Rxswift_MVVM_RailsAPI_Bookshelf;
 			sourceTree = "<group>";
 		};
+		8409C94764814547E903874B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63D107AA3D8EA6CAA05ED274 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC86B06BEB767533438D8BC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D5884E45A473625CDC4C433 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig */,
+				E2CE0F7FD100C3A4448F3981 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5FC48972243F2DF400B07422 /* Build configuration list for PBXNativeTarget "Rxswift_MVVM_RailsAPI_Bookshelf" */;
 			buildPhases = (
+				6CFAB208C88F42B2DCE0C992 /* [CP] Check Pods Manifest.lock */,
 				5FC4895A243F2DF200B07422 /* Sources */,
 				5FC4895B243F2DF200B07422 /* Frameworks */,
 				5FC4895C243F2DF200B07422 /* Resources */,
+				A02F12288E0A32EEDB5DFBED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CFAB208C88F42B2DCE0C992 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rxswift_MVVM_RailsAPI_Bookshelf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A02F12288E0A32EEDB5DFBED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rxswift_MVVM_RailsAPI_Bookshelf/Pods-Rxswift_MVVM_RailsAPI_Bookshelf-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rxswift_MVVM_RailsAPI_Bookshelf/Pods-Rxswift_MVVM_RailsAPI_Bookshelf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5FC4895A243F2DF200B07422 /* Sources */ = {
@@ -282,6 +357,7 @@
 		};
 		5FC48973243F2DF400B07422 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D5884E45A473625CDC4C433 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +376,7 @@
 		};
 		5FC48974243F2DF400B07422 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2CE0F7FD100C3A4448F3981 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
