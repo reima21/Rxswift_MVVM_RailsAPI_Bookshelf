@@ -10,21 +10,49 @@
 		13DFBCED02C0291594D607F7 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D107AA3D8EA6CAA05ED274 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework */; };
 		5FC48962243F2DF200B07422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC48961243F2DF200B07422 /* AppDelegate.swift */; };
 		5FC48964243F2DF200B07422 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC48963243F2DF200B07422 /* SceneDelegate.swift */; };
-		5FC48966243F2DF200B07422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC48965243F2DF200B07422 /* ViewController.swift */; };
 		5FC48969243F2DF200B07422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC48967243F2DF200B07422 /* Main.storyboard */; };
 		5FC4896B243F2DF400B07422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC4896A243F2DF400B07422 /* Assets.xcassets */; };
 		5FC4896E243F2DF400B07422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FC4896C243F2DF400B07422 /* LaunchScreen.storyboard */; };
+		5FEED022243F2F8D005E759A /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEED021243F2F8D005E759A /* RxSwift.framework */; };
+		5FEED024243F2F94005E759A /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEED023243F2F94005E759A /* RxCocoa.framework */; };
+		5FEED028243F2FB3005E759A /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEED027243F2FB3005E759A /* Alamofire.framework */; };
+		5FEED02A243F2FB9005E759A /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEED029243F2FB9005E759A /* AlamofireImage.framework */; };
+		5FEED02C243F2FC5005E759A /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEED02B243F2FC5005E759A /* SwiftyJSON.framework */; };
+		5FEED030243F34F9005E759A /* Action.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FEED025243F2F9C005E759A /* Action.framework */; };
+		5FEED03B243F7E74005E759A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED03A243F7E74005E759A /* LoginViewController.swift */; };
+		5FEED03D243F7EA4005E759A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED03C243F7EA4005E759A /* LoginViewModel.swift */; };
+		5FEED03F243F7EB3005E759A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED03E243F7EB3005E759A /* LoginModel.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5FEED033243F3659005E759A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5FC4895E243F2DF200B07422 /* Rxswift_MVVM_RailsAPI_Bookshelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rxswift_MVVM_RailsAPI_Bookshelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FC48961243F2DF200B07422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5FC48963243F2DF200B07422 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5FC48965243F2DF200B07422 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5FC48968243F2DF200B07422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FC4896A243F2DF400B07422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FC4896D243F2DF400B07422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5FC4896F243F2DF400B07422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FEED021243F2F8D005E759A /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEED023243F2F94005E759A /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEED025243F2F9C005E759A /* Action.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Action.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEED027243F2FB3005E759A /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEED029243F2FB9005E759A /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEED02B243F2FC5005E759A /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEED03A243F7E74005E759A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5FEED03C243F7EA4005E759A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5FEED03E243F7EB3005E759A /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		63D107AA3D8EA6CAA05ED274 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5884E45A473625CDC4C433 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rxswift_MVVM_RailsAPI_Bookshelf/Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig"; sourceTree = "<group>"; };
 		E2CE0F7FD100C3A4448F3981 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rxswift_MVVM_RailsAPI_Bookshelf/Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig"; sourceTree = "<group>"; };
@@ -35,6 +63,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FEED02C243F2FC5005E759A /* SwiftyJSON.framework in Frameworks */,
+				5FEED02A243F2FB9005E759A /* AlamofireImage.framework in Frameworks */,
+				5FEED030243F34F9005E759A /* Action.framework in Frameworks */,
+				5FEED028243F2FB3005E759A /* Alamofire.framework in Frameworks */,
+				5FEED024243F2F94005E759A /* RxCocoa.framework in Frameworks */,
+				5FEED022243F2F8D005E759A /* RxSwift.framework in Frameworks */,
 				13DFBCED02C0291594D607F7 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,9 +97,12 @@
 		5FC48960243F2DF200B07422 /* Rxswift_MVVM_RailsAPI_Bookshelf */ = {
 			isa = PBXGroup;
 			children = (
+				5FEED040243F7ECC005E759A /* Extension */,
+				5FEED039243F7E2A005E759A /* Model */,
+				5FEED038243F7E20005E759A /* View */,
+				5FEED037243F7E0F005E759A /* ViewModel */,
 				5FC48961243F2DF200B07422 /* AppDelegate.swift */,
 				5FC48963243F2DF200B07422 /* SceneDelegate.swift */,
-				5FC48965243F2DF200B07422 /* ViewController.swift */,
 				5FC48967243F2DF200B07422 /* Main.storyboard */,
 				5FC4896A243F2DF400B07422 /* Assets.xcassets */,
 				5FC4896C243F2DF400B07422 /* LaunchScreen.storyboard */,
@@ -74,9 +111,46 @@
 			path = Rxswift_MVVM_RailsAPI_Bookshelf;
 			sourceTree = "<group>";
 		};
+		5FEED037243F7E0F005E759A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5FEED03C243F7EA4005E759A /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5FEED038243F7E20005E759A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FEED03A243F7E74005E759A /* LoginViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5FEED039243F7E2A005E759A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5FEED03E243F7EB3005E759A /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5FEED040243F7ECC005E759A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		8409C94764814547E903874B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5FEED02B243F2FC5005E759A /* SwiftyJSON.framework */,
+				5FEED029243F2FB9005E759A /* AlamofireImage.framework */,
+				5FEED027243F2FB3005E759A /* Alamofire.framework */,
+				5FEED025243F2F9C005E759A /* Action.framework */,
+				5FEED023243F2F94005E759A /* RxCocoa.framework */,
+				5FEED021243F2F8D005E759A /* RxSwift.framework */,
 				63D107AA3D8EA6CAA05ED274 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework */,
 			);
 			name = Frameworks;
@@ -103,6 +177,7 @@
 				5FC4895B243F2DF200B07422 /* Frameworks */,
 				5FC4895C243F2DF200B07422 /* Resources */,
 				A02F12288E0A32EEDB5DFBED /* [CP] Embed Pods Frameworks */,
+				5FEED033243F3659005E759A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -213,7 +288,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC48966243F2DF200B07422 /* ViewController.swift in Sources */,
+				5FEED03F243F7EB3005E759A /* LoginModel.swift in Sources */,
+				5FEED03D243F7EA4005E759A /* LoginViewModel.swift in Sources */,
+				5FEED03B243F7E74005E759A /* LoginViewController.swift in Sources */,
 				5FC48962243F2DF200B07422 /* AppDelegate.swift in Sources */,
 				5FC48964243F2DF200B07422 /* SceneDelegate.swift in Sources */,
 			);
