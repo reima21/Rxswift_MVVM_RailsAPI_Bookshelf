@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "493241D9001FDEB582060F6B3427FA76"
+               BlueprintIdentifier = "26938569EA92EB0FFD894C7383D75902"
                BuildableName = "Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework"
                BlueprintName = "Pods-Rxswift_MVVM_RailsAPI_Bookshelf"
                ReferencedContainer = "container:Pods.xcodeproj">

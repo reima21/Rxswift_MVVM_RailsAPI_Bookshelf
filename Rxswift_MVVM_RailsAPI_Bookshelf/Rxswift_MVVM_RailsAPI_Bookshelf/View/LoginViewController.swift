@@ -7,24 +7,35 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+import Action
+
+
 
 class LoginViewController: UIViewController {
-
+        
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var loginButton: UIButton!
+    
+    private lazy var viewModel = LoginViewModel(
+        emailTextObservable: emailTextField.rx.text.asObservable(),
+        passwordTextObservable: passwordTextField.rx.text.asObservable()
+//        loginTaps: loginButton.rx.tap.asSignal()
+    )
+            
+    private let diposeBag = DisposeBag()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+//        let emailAndPassword = Observable.combineLatest(emailTextField.rx.text.orEmpty, passwordTextField.rx.text.orEmpty)
 
-        // Do any additional setup after loading the view.
+
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

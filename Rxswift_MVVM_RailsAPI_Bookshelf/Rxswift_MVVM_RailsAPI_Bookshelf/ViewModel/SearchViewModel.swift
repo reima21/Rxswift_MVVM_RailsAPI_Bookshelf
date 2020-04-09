@@ -1,5 +1,5 @@
 //
-//  LoginModel.swift
+//  SearchViewModel.swift
 //  Rxswift_MVVM_RailsAPI_Bookshelf
 //
 //  Created by 松平礼史 on 2020/04/10.
@@ -7,5 +7,3 @@
 //
 
 import Foundation
-
-

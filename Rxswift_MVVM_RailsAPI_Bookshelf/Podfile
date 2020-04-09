@@ -9,6 +9,7 @@ target 'Rxswift_MVVM_RailsAPI_Bookshelf' do
   pod 'SwiftyJSON'
 	pod 'RxSwift'
   pod 'RxCocoa'
+	pod 'RxOptional'''
 	pod 'Action'
   # Pods for Rxswift_MVVM_RailsAPI_Bookshelf
 

@@ -25,6 +25,25 @@
 		5FEED042243F7F3E005E759A /* NSObjectProtocolExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED041243F7F3E005E759A /* NSObjectProtocolExtension.swift */; };
 		5FEED044243F7F69005E759A /* UIColorHexExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED043243F7F69005E759A /* UIColorHexExtension.swift */; };
 		5FEED046243F7F94005E759A /* ButtonExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED045243F7F94005E759A /* ButtonExtention.swift */; };
+		5FEED048243F9585005E759A /* BookListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED047243F9585005E759A /* BookListViewModel.swift */; };
+		5FEED04A243F9591005E759A /* BookListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED049243F9591005E759A /* BookListViewController.swift */; };
+		5FEED04C243F959F005E759A /* BookListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED04B243F959F005E759A /* BookListModel.swift */; };
+		5FEED04F243F9912005E759A /* LoginAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED04E243F9912005E759A /* LoginAPIModel.swift */; };
+		5FEED051243F9925005E759A /* SearchAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED050243F9925005E759A /* SearchAPIModel.swift */; };
+		5FEED053243F993F005E759A /* MyBookAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED052243F993F005E759A /* MyBookAPIModel.swift */; };
+		5FEED056243FA0BE005E759A /* BookInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED055243FA0BE005E759A /* BookInfo.swift */; };
+		5FEED058243FA0EE005E759A /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED057243FA0EE005E759A /* Books.swift */; };
+		5FEED05A243FA198005E759A /* BookDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED059243FA198005E759A /* BookDetailModel.swift */; };
+		5FEED05C243FA1A4005E759A /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED05B243FA1A4005E759A /* BookDetailViewController.swift */; };
+		5FEED05E243FA1B1005E759A /* BookDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED05D243FA1B1005E759A /* BookDetailViewModel.swift */; };
+		5FEED064243FA20E005E759A /* ListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED062243FA20E005E759A /* ListCollectionViewCell.swift */; };
+		5FEED065243FA20E005E759A /* ListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FEED063243FA20E005E759A /* ListCollectionViewCell.xib */; };
+		5FEED069243FA279005E759A /* MyBookDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED068243FA279005E759A /* MyBookDetailModel.swift */; };
+		5FEED06B243FA29C005E759A /* MyBookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED06A243FA29C005E759A /* MyBookDetailViewController.swift */; };
+		5FEED06D243FA2B3005E759A /* MyBookDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED06C243FA2B3005E759A /* MyBookDetailViewModel.swift */; };
+		5FEED06F243FA2D3005E759A /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED06E243FA2D3005E759A /* SearchModel.swift */; };
+		5FEED071243FA2E5005E759A /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED070243FA2E5005E759A /* SearchViewModel.swift */; };
+		5FEED073243FA2F7005E759A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FEED072243FA2F6005E759A /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -59,6 +78,25 @@
 		5FEED041243F7F3E005E759A /* NSObjectProtocolExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocolExtension.swift; sourceTree = "<group>"; };
 		5FEED043243F7F69005E759A /* UIColorHexExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHexExtension.swift; sourceTree = "<group>"; };
 		5FEED045243F7F94005E759A /* ButtonExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExtention.swift; sourceTree = "<group>"; };
+		5FEED047243F9585005E759A /* BookListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewModel.swift; sourceTree = "<group>"; };
+		5FEED049243F9591005E759A /* BookListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListViewController.swift; sourceTree = "<group>"; };
+		5FEED04B243F959F005E759A /* BookListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListModel.swift; sourceTree = "<group>"; };
+		5FEED04E243F9912005E759A /* LoginAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPIModel.swift; sourceTree = "<group>"; };
+		5FEED050243F9925005E759A /* SearchAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAPIModel.swift; sourceTree = "<group>"; };
+		5FEED052243F993F005E759A /* MyBookAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookAPIModel.swift; sourceTree = "<group>"; };
+		5FEED055243FA0BE005E759A /* BookInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInfo.swift; sourceTree = "<group>"; };
+		5FEED057243FA0EE005E759A /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		5FEED059243FA198005E759A /* BookDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailModel.swift; sourceTree = "<group>"; };
+		5FEED05B243FA1A4005E759A /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		5FEED05D243FA1B1005E759A /* BookDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewModel.swift; sourceTree = "<group>"; };
+		5FEED062243FA20E005E759A /* ListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionViewCell.swift; sourceTree = "<group>"; };
+		5FEED063243FA20E005E759A /* ListCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListCollectionViewCell.xib; sourceTree = "<group>"; };
+		5FEED068243FA279005E759A /* MyBookDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookDetailModel.swift; sourceTree = "<group>"; };
+		5FEED06A243FA29C005E759A /* MyBookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookDetailViewController.swift; sourceTree = "<group>"; };
+		5FEED06C243FA2B3005E759A /* MyBookDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyBookDetailViewModel.swift; sourceTree = "<group>"; };
+		5FEED06E243FA2D3005E759A /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		5FEED070243FA2E5005E759A /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		5FEED072243FA2F6005E759A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		63D107AA3D8EA6CAA05ED274 /* Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rxswift_MVVM_RailsAPI_Bookshelf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D5884E45A473625CDC4C433 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rxswift_MVVM_RailsAPI_Bookshelf/Pods-Rxswift_MVVM_RailsAPI_Bookshelf.debug.xcconfig"; sourceTree = "<group>"; };
 		E2CE0F7FD100C3A4448F3981 /* Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rxswift_MVVM_RailsAPI_Bookshelf/Pods-Rxswift_MVVM_RailsAPI_Bookshelf.release.xcconfig"; sourceTree = "<group>"; };
@@ -103,6 +141,9 @@
 		5FC48960243F2DF200B07422 /* Rxswift_MVVM_RailsAPI_Bookshelf */ = {
 			isa = PBXGroup;
 			children = (
+				5FEED05F243FA1C3005E759A /* ListColleectionViewCell */,
+				5FEED054243FA090005E759A /* Entities */,
+				5FEED04D243F98CB005E759A /* API */,
 				5FEED040243F7ECC005E759A /* Extension */,
 				5FEED039243F7E2A005E759A /* Model */,
 				5FEED038243F7E20005E759A /* View */,
@@ -121,6 +162,10 @@
 			isa = PBXGroup;
 			children = (
 				5FEED03C243F7EA4005E759A /* LoginViewModel.swift */,
+				5FEED047243F9585005E759A /* BookListViewModel.swift */,
+				5FEED05D243FA1B1005E759A /* BookDetailViewModel.swift */,
+				5FEED06C243FA2B3005E759A /* MyBookDetailViewModel.swift */,
+				5FEED070243FA2E5005E759A /* SearchViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -129,6 +174,10 @@
 			isa = PBXGroup;
 			children = (
 				5FEED03A243F7E74005E759A /* LoginViewController.swift */,
+				5FEED049243F9591005E759A /* BookListViewController.swift */,
+				5FEED05B243FA1A4005E759A /* BookDetailViewController.swift */,
+				5FEED06A243FA29C005E759A /* MyBookDetailViewController.swift */,
+				5FEED072243FA2F6005E759A /* SearchViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,6 +186,10 @@
 			isa = PBXGroup;
 			children = (
 				5FEED03E243F7EB3005E759A /* LoginModel.swift */,
+				5FEED04B243F959F005E759A /* BookListModel.swift */,
+				5FEED059243FA198005E759A /* BookDetailModel.swift */,
+				5FEED068243FA279005E759A /* MyBookDetailModel.swift */,
+				5FEED06E243FA2D3005E759A /* SearchModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -149,6 +202,34 @@
 				5FEED045243F7F94005E759A /* ButtonExtention.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		5FEED04D243F98CB005E759A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				5FEED04E243F9912005E759A /* LoginAPIModel.swift */,
+				5FEED050243F9925005E759A /* SearchAPIModel.swift */,
+				5FEED052243F993F005E759A /* MyBookAPIModel.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		5FEED054243FA090005E759A /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				5FEED055243FA0BE005E759A /* BookInfo.swift */,
+				5FEED057243FA0EE005E759A /* Books.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		5FEED05F243FA1C3005E759A /* ListColleectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5FEED062243FA20E005E759A /* ListCollectionViewCell.swift */,
+				5FEED063243FA20E005E759A /* ListCollectionViewCell.xib */,
+			);
+			path = ListColleectionViewCell;
 			sourceTree = "<group>";
 		};
 		8409C94764814547E903874B /* Frameworks */ = {
@@ -237,6 +318,7 @@
 			files = (
 				5FC4896E243F2DF400B07422 /* LaunchScreen.storyboard in Resources */,
 				5FC4896B243F2DF400B07422 /* Assets.xcassets in Resources */,
+				5FEED065243FA20E005E759A /* ListCollectionViewCell.xib in Resources */,
 				5FC48969243F2DF200B07422 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +355,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
@@ -282,6 +365,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
@@ -297,14 +381,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FEED056243FA0BE005E759A /* BookInfo.swift in Sources */,
+				5FEED04C243F959F005E759A /* BookListModel.swift in Sources */,
 				5FEED03F243F7EB3005E759A /* LoginModel.swift in Sources */,
+				5FEED06F243FA2D3005E759A /* SearchModel.swift in Sources */,
+				5FEED05A243FA198005E759A /* BookDetailModel.swift in Sources */,
+				5FEED051243F9925005E759A /* SearchAPIModel.swift in Sources */,
+				5FEED058243FA0EE005E759A /* Books.swift in Sources */,
+				5FEED064243FA20E005E759A /* ListCollectionViewCell.swift in Sources */,
+				5FEED073243FA2F7005E759A /* SearchViewController.swift in Sources */,
 				5FEED03D243F7EA4005E759A /* LoginViewModel.swift in Sources */,
 				5FEED046243F7F94005E759A /* ButtonExtention.swift in Sources */,
 				5FEED03B243F7E74005E759A /* LoginViewController.swift in Sources */,
 				5FEED042243F7F3E005E759A /* NSObjectProtocolExtension.swift in Sources */,
+				5FEED06D243FA2B3005E759A /* MyBookDetailViewModel.swift in Sources */,
+				5FEED05E243FA1B1005E759A /* BookDetailViewModel.swift in Sources */,
+				5FEED06B243FA29C005E759A /* MyBookDetailViewController.swift in Sources */,
+				5FEED053243F993F005E759A /* MyBookAPIModel.swift in Sources */,
+				5FEED069243FA279005E759A /* MyBookDetailModel.swift in Sources */,
+				5FEED048243F9585005E759A /* BookListViewModel.swift in Sources */,
 				5FC48962243F2DF200B07422 /* AppDelegate.swift in Sources */,
 				5FEED044243F7F69005E759A /* UIColorHexExtension.swift in Sources */,
+				5FEED05C243FA1A4005E759A /* BookDetailViewController.swift in Sources */,
+				5FEED071243FA2E5005E759A /* SearchViewModel.swift in Sources */,
 				5FC48964243F2DF200B07422 /* SceneDelegate.swift in Sources */,
+				5FEED04F243F9912005E759A /* LoginAPIModel.swift in Sources */,
+				5FEED04A243F9591005E759A /* BookListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
